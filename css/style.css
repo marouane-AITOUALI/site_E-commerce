@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+  margin:0px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:20px;
+    background-color: #687474;
+    position:sticky;
+    top:0;
+}
+
+nav h1{
+    font-size: 22px;
+}
+
+nav .onglets{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+nav .onglets ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+nav .onglets ul li{
+    margin-right:15px;
+}
+
+nav .onglets ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+nav .onglets ul li a:hover{
+    /*background-color: #A2B5C8;*/
+    font-size: 20px;
+}
+
+nav .onglets input{
+    margin: 8px 20px;
+    padding: 15px;
+    border-radius: 30px;
+    border:none;
+    background-color: #f2f2f2;
+    outline:none;
+}
+
+main{
+    
+    margin: 20px;
+    margin-top: 80px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.produits{
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.produits .produit{
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+.produits .produit img{
+    width: 350px;
+    height:350px;
+}
+
+
+.produits .produit .produit-header{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.produits .produit .produit-description p{
+    margin-top: -10px;
+}
+
+
+i{
+    margin-right: 5px;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #000;
+    padding: 30px;
+    color: #fff;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+footer .social-media{
+    display:flex;
+}
+
+footer .social-media a{
+    margin-right: 20px;
+    text-decoration: none;
+    color:white;
+}
+
+footer .social-media a:hover{
+    font-size: 20px;
+
+}
